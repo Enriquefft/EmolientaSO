@@ -10,13 +10,12 @@ export default function Home() {
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <Link href="/" className="flex title-font font-medium items-center text-white mb-4 md:mb-0">
             <Image
-              src="/placeholder.svg?height=40&width=40"
+              src="/logo.jpg"
               alt="EmolientaSO Logo"
-              width={40}
+              width={120}
               height={40}
               className="rounded-full"
             />
-            <span className="ml-3 text-xl">EmolientaSO</span>
           </Link>
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
             <Link href="#about" className="mr-5 hover:text-green-200">
@@ -68,7 +67,7 @@ export default function Home() {
               <Image
                 className="object-cover object-center rounded"
                 alt="Emoliente Seller"
-                src="/placeholder.svg?height=600&width=720"
+                src="/emolientero.jpg"
                 width={720}
                 height={600}
               />
@@ -153,7 +152,7 @@ export default function Home() {
                     <Image
                       alt={`${city} Location`}
                       className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                      src={`/placeholder.svg?height=224&width=400&text=${city}`}
+                    src={`/${city.toLowerCase()}.jpg`}
                       width={400}
                       height={224}
                     />
@@ -239,7 +238,7 @@ export default function Home() {
             className="flex title-font font-medium items-center md:justify-start justify-center text-white"
           >
             <Image
-              src="/placeholder.svg?height=40&width=40"
+              src="/logo.jpg"
               alt="EmolientaSO Logo"
               width={40}
               height={40}
